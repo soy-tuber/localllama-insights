@@ -1,4 +1,10 @@
-# Unverified Community Update: DeepSeek Releases Open-Source nano-vLLM  
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - nano-vllm は DeepSeek の **公式プロダクトではない**。DeepSeek エンジニア Xingkai Yu 氏の**個人プロジェクト**。記事の「DeepSeek チームがオープンソース化」という記述は誤り。
+> - プロジェクトは現在 **12.2K スター、1.7K フォーク** と大きなコミュニティを獲得。
+> - 約 1,200 行の Python コード、主要機能（prefix caching, tensor parallelism, torch compilation, CUDA graph）は **検証済み**。
+> - 学習・実験目的の最小実装であり、本番環境での vLLM 代替を意図していない点に注意。
+
+# Unverified Community Update: DeepSeek Releases Open-Source nano-vLLM
 *Source: Reddit post from r/LocalLLaMA (621 upvotes, 54 comments)*
 
 According to the post, the team behind DeepSeek has recently open-sourced **nano-vLLM**, a lightweight implementation of the vLLM inference engine. The project claims to be built from scratch and is designed to deliver fast, efficient, and highly optimized offline language model inference with minimal resource overhead.

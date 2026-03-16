@@ -1,4 +1,10 @@
-**RTX Pro 6000 Blackwell vLLM Benchmark: 120B Model Performance Analysis**  
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - openai/gpt-oss-120b は **Hugging Face で実在を確認**。117B MoE（アクティブ 5.1B）、MXFP4 量子化、Apache 2.0 ライセンス。
+> - アクティブパラメータが 5.1B と小さいため、1051 tok/s のピーク性能は**妥当**。
+> - vLLM 0.11.0、CUDA 13.0 の記述は実在するバージョン。
+> - 96GB VRAM で 128K コンテキスト + 20 並列ユーザーでもメモリスワップなしに動作するという報告は、MXFP4 量子化の恩恵。
+
+**RTX Pro 6000 Blackwell vLLM Benchmark: 120B Model Performance Analysis**
 *Unverified Community Insight – Reddit Score: 173 Upvotes*
 
 This post from the *r/LocalLLaMA* community presents a detailed performance profile of a 120-billion-parameter model running on NVIDIA’s RTX Pro 6000 Blackwell workstation, using vLLM 0.11.0. With 96GB of VRAM, the system demonstrates compelling results for large-scale local inference. While unconfirmed by official benchmarks, the data comes from a reputed local AI enthusiast and carries 89 comments discussing its practical implications — suggesting a high level of community engagement and perceived credibility.

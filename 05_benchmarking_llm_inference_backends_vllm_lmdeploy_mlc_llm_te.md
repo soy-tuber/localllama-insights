@@ -1,3 +1,8 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - 推論バックエンドの勢力図は **大きく変化**。SGLang が主要な競合として台頭し、MLC-LLM は後継に移行、vLLM は V1 アーキテクチャをリリース。
+> - 「LMDeploy が最高性能」は特定条件下（Llama 3 / BentoCloud / 100 並列ユーザー）の結果であり、一般化は困難。
+> - 他記事と比較して具体的な数値・ハードウェア仕様・再現手順が乏しく、情報価値は限定的。
+
 # Benchmarking LLM Inference Backends: vLLM, LMDeploy, MLC-LLM, TensorRT-LLM, and TGI
 
 ## Introduction

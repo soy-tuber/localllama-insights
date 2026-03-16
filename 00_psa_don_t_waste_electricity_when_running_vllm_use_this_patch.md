@@ -1,3 +1,9 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - PR #16226 は **2025年6月5日にマージ済み**。`VLLM_SLEEP_WHEN_IDLE=1` または `--sleep-on-idle` で利用可能。
+> - 「コンテナ内でのみ動作」は **誤り** — Python レベルの修正（`shm_broadcast.py`）であり環境を問わず動作する。
+> - "sGLANG" は **SGLang** の誤記。対応 PR #6026 も 2025年6月12日にマージ済み。
+> - ただし Ray 分散環境やワーカーレベルのビジーループには未対応（issues #21231, #19036, #25122）。
+
 # PSA: Don't Waste Electricity When Running vLLM — A Community-Optimized Patch
 
 > **Disclaimer**: The following information is based on unverified community reports from r/LocalLLaMA. It reflects user experiences and unverified technical guidance provided by Reddit users. Always exercise caution and verify before applying patches to production systems.

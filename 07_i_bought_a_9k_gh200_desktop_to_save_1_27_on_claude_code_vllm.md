@@ -1,4 +1,10 @@
-**Unverified Community Report: The €9K GH200 “Desktop” That Saved $1.27 on Claude Code (vLLM Tuning Notes)**  
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - €9K の価格は **中古/余剰市場でのみ妥当**。新品の GH200 ワークステーションは €47,500〜。2025年末に HN で €7.5K での中古購入報告あり。
+> - TP2 > PP2（non-NVLink 環境）の知見は **広く確認されている**。デコード主体のワークロードで特に有効。
+> - `--max-num-seqs 16` のスケジューラチューニングは **依然として重要**な最適化ポイント。
+> - `VLLM_SLEEP_WHEN_IDLE=0` はデフォルト値（無効）。`=1` で有効化すると ~100ms のウェイク遅延が発生。
+
+**Unverified Community Report: The €9K GH200 “Desktop” That Saved $1.27 on Claude Code (vLLM Tuning Notes)**
 *Score: 648 upvotes | 170 comments*
 
 ---

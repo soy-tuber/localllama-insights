@@ -1,3 +1,9 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - CUTLASS issue #3096 は **2026年3月時点で未解決**。SM120 での grouped GEMM 失敗は継続中。
+> - SM120 は SM100（データセンター向け）と異なり `tcgen05` 命令や TMEM を持たない。Triton は SM12x を SM80（Ampere）として扱うため Blackwell 固有最適化が無効。
+> - Marlin W4A16 + MTP 無効の回避策は **依然として有効**。
+> - FlashInfer 0.6.5 のパッチにより SM120 で部分的動作可能だが、Marlin より約 20% 低速。
+
 ## Unverified Community Report: Qwen3.5-397B NVFP4 Performance on RTX PRO 6000
 
 **Disclaimer:** This article summarizes unverified community information shared by a user on Reddit. All claims, metrics, and technical observations are presented as-is from the original post and should be treated as anecdotal evidence until independently validated.

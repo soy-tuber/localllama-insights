@@ -1,3 +1,9 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - 「広く知られた実装は存在しない」は **大幅に古い情報**。**vLLM v0.11.0（2026年1月）** で KV Offloading Connector が公式実装済み。
+> - **LMCache** が vLLM の KV connector インターフェース経由で本番対応済み（GPU → CPU RAM → リモートストレージの階層キャッシュ）。
+> - **SGLang** も実験的サポートあり。**NVIDIA Dynamo** も CPU/SSD オフロードに対応。
+> - 記事の方向性（スワップが再計算より高速）自体は正しいが、「未実装」という前提は完全に覆されている。
+
 # Optimizing Long-Lived LLM Sessions: The Case for Swapping KV Cache to RAM
 
 A recent discussion in the r/LocalLLaMA community brought to light a potentially impactful optimization for long-lived language model (LLM) sessions. With **220 upvotes** and active engagement, the post has sparked interest in improving user experience by reducing reactivation latency. The core idea, as presented, centers on **swapping the KV Cache between VRAM and system RAM** instead of recalculating it upon user return.
