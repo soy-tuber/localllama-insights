@@ -1,3 +1,10 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - aikitoria フォークは **活発に更新中**（現在 driver 590.48.01 → 595.45.04 対応、151 スター）。
+> - NVIDIA は **公式には P2P をコンシューマカードでサポートしていない**。NCCL や公式フォーラムでも未対応を確認。
+> - 8x5090 環境では依然として「CANNOT Access Peer」が報告されており（tinygrad fork issues #42, #44）、**大規模構成での信頼性に課題**。
+> - IOMMU 無効化が必須であり、**セキュリティリスクが大きい**。記事ではこの点の強調が不十分。
+> - 「Blackwell 2.0」は NVIDIA の公式呼称ではない。
+
 **Unverified Community Update: Patched P2P NVIDIA Driver Enables High-Bandwidth Interconnect Between Multiple 5090s and Blackwell Graphics Cards**
 
 *Source: Reddit post from r/LocalLLaMA, 86 upvotes, 24 comments*

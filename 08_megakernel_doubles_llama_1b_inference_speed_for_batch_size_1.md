@@ -1,3 +1,9 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - Hazy Research（Stanford）のブログ記事 "Look Ma, No Bubbles!" は **実在を確認**（2025年5月27日公開）。コードもオープンソース化済み。
+> - 論文の表現は「**1.5x 以上**の高速化」であり、記事タイトルの「Doubles（2倍）」は**やや過大**。ただしコミュニティでの議論では 2x に近い結果も報告。
+> - H100 上でメモリ帯域幅利用率 **78%** を達成（vLLM/SGLang は最大 50%）。
+> - コンシューマ GPU へのスケーラビリティは**未検証**のまま。
+
 # Megakernel Doubles Llama-1B Inference Speed for Batch Size 1
 
 In a recent community discussion on r/LocalLLaMA, a post highlighted findings from a Stanford-led research effort that could significantly impact how we deploy and optimize small language models locally. The post, which has received **73 upvotes** and sparked **11 comments**, draws attention to performance bottlenecks in popular inference frameworks when running lightweight models like Llama-1B.

@@ -1,3 +1,8 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - Feather プロジェクト（`SuriyaaMM/feather`）は **実在し活発に開発中**。GEMV で 3.37x、Flash Attention で最大 6.2x の高速化を確認。
+> - 「RTX 20 シリーズ対応」は compute capability >= 7.5（Turing）が要件だが、**ベンチマークは RTX 3050 のみ**。20 シリーズでの検証は未確認。
+> - 現状は TinyLlama-1.1B での推論に対応。vLLM 統合や CUDA graph 最適化は今後のロードマップ。
+
 **Software FP8 for GPUs Without Hardware Support: A 3x Speedup Workaround**
 
 *This article presents unverified community information from a Reddit post on r/LocalLLaMA. It is not an official technical validation but reflects user-reported findings.*

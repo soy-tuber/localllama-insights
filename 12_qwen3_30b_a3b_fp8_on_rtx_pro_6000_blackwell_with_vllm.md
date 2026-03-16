@@ -1,3 +1,9 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - RTX Pro 6000 のスペック（96GB GDDR7, PCIe Gen 5, 600W TDP）は **公式に確認済み**。
+> - 88.4 tok/s（シングルユーザー、1K コンテキスト）は他のコミュニティベンチマークと**整合的**。
+> - 450W パワーリミットはカードの 600W TDP を下回る意図的な制限。効率テストとして適切。
+> - 256K コンテキストでの 22 tok/s は 30B モデルとして**注目に値する**結果。
+
 # Qwen3-30B-A3B in FP8 on RTX PRO 6000 Blackwell: Community Benchmarks Revealed
 
 *This article presents unverified community information from a Reddit post in r/LocalLLaMA. All claims, metrics, and interpretations are shared directly from the post without endorsement or validation by NVIDIA or the author.*

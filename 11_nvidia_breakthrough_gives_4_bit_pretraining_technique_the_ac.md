@@ -1,3 +1,9 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - **MBPP+ スコアが逆に記載されている（事実誤認）**: 記事は「FP8: 55.91%, NVFP4: 59.11%」と書いているが、正しくは **FP8: 59.11%, NVFP4: 55.91%**。FP8 が MBPP+ で優位であり、低精度が不利になるのは期待通り。
+> - **MMLU Pro スコアも入れ替わっている**: 記事は「FP8: 62.58%, NVFP4: 62.62%」と書いているが、正しくは **FP8: 62.62%, NVFP4: 62.58%**。差は 0.04pp と僅少。
+> - 論文（arXiv 2509.25149）と 12B Mamba-Transformer（Nemotron-H ファミリー）/ 10T トークン訓練の記述は**検証済み**。
+> - NVFP4 の全体的な FP8 近似性能の主張は正しいが、コーディングベンチマークでは数 pp の劣化がある。
+
 # NVIDIA Breakthrough: 4-Bit Pretraining Achieves FP8 Accuracy with NVFP4
 
 **Score:** 808 upvotes, 99 comments (Reddit: r/LocalLLaMA)

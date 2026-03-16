@@ -1,3 +1,8 @@
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - バージョン指定（PyTorch 2.8.0 cu128, vLLM 0.10.2, FlashInfer 0.3.1）は当時として正確だが、**現在はより新しいバージョンが利用可能**。
+> - 80 tok/s のスループットは他の RTX Pro 6000 ベンチマーク（記事12, 13）と**整合的**。
+> - 「Claude や ChatGPT に頼るな」という警告は、最先端スタック構成に対する AI アシスタントの限界として**妥当な指摘**。
+
 **Serving Qwen3‑Next‑80B‑A3B‑Instruct (FP8) on Windows 11 WSL2 with vLLM and FlashInfer — A Real‑World Tale**
 
 *Score: 86 upvotes (Reddit r/LocalLLaMA, community post)*  

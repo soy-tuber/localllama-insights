@@ -1,4 +1,10 @@
-# Reuse Non-Prefix KV Cache and Speed Up RAG by 3X with LMCache  
+> **Opus 4.6 Audit Insights (2026-03-16)**
+> - CacheBlend の **ACM EuroSys 2025 Best Paper 受賞を確認**。UChicago CS 学部と EuroSys 公式アカウントが裏付け。
+> - ACM DOI（`10.1145/3689031.3696098`）は**正確**。
+> - TTFT 2.2〜3.3x 改善の主張は論文の報告と**一致**。
+> - LMCache は現在 vLLM の公式 KV connector インターフェースに統合されており、**エコシステムでの地位を確立**。
+
+# Reuse Non-Prefix KV Cache and Speed Up RAG by 3X with LMCache
 
 **According to the post on Reddit (r/LocalLLaMA) with 127 upvotes**, a team behind the open-source project LMCache has introduced **CacheBlend**, a technique that enables 100% reuse of KV caches regardless of their position in the input sequence. Recognized with a **Best Paper Award at ACM EuroSys 2025**, this innovation is designed to solve a persistent inefficiency in Retrieval-Augmented Generation (RAG) and other dynamic context applications.
 
